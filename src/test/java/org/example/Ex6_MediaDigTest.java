@@ -25,7 +25,7 @@ class Ex6_MediaDigTest {
     @Test
     public void MediaTest_12()
     {
-        double num = 3;
+        double num = 1.5;
         double metodo = m.mediaDigitos(12);
         assertEquals(num,metodo,"Erro!");
     }

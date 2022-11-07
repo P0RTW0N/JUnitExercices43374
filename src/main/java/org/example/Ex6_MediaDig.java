@@ -13,6 +13,7 @@ public class Ex6_MediaDig {
         {
             soma = soma + Integer.parseInt(""+numS.charAt(i));
         }
-        return soma;
+        double media = soma / tam;
+        return media;
     }
 }
